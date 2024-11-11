@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router"
 import { BuyWithSolana } from "~/components/BuyWithSolana"
 import { SolanaConnectButton } from "~/components/SolanaConnectButton"
 
+// trigger build
 function RouteComponent() {
   return (
     <>
