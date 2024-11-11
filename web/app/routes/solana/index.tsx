@@ -1,5 +1,5 @@
-import { createFileRoute } from "@tanstack/react-router"
-import { BuyWithSolana } from "~/components/BuyWithSolana"
+import { createFileRoute } from '@tanstack/react-router'
+import { BuyWithSolana } from '~/components/BuyWithSolana'
 
 function RouteComponent() {
   return (
@@ -11,6 +11,6 @@ function RouteComponent() {
   )
 }
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute('/solana/')({
   component: RouteComponent,
 })

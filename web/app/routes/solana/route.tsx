@@ -32,6 +32,6 @@ function LayoutComponent() {
   )
 }
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/solana")({
   component: LayoutComponent,
 })
