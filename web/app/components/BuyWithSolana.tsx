@@ -7,7 +7,6 @@ import {
   SystemProgram,
   Transaction,
 } from "@solana/web3.js"
-import { useNavigate } from "@tanstack/react-router"
 import { useState } from "react"
 
 export function BuyWithSolana() {
